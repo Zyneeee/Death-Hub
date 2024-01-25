@@ -1291,7 +1291,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(16111659285)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
         ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-        ImageLabel.Image = "rbxassetid://15860672267"
+        ImageLabel.Image = "rbxassetid://16111659285"
             
         Title.Parent = SliderFrame_2
         Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -1921,7 +1921,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(16111659285)
 end
 return uitab
 end
----- KÃ¡ÂºÂ¿t KhÃƒÂºc Ui
+---- Death Hub Ui
 
 function intiAppleHub() 
 _G.antiscan = true
