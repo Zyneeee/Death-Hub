@@ -937,7 +937,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(16111659285)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 5, 0, 6)
         ImageLabel.Size = UDim2.new(0, 20, 0, 20)
-        ImageLabel.Image = "rbxassetid://
+        ImageLabel.Image = "rbxassetid://16111659285"
         ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         Space.Name = "Space"
