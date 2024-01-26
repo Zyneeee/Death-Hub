@@ -1,4 +1,4 @@
----[Notify MÃ¡Â»â€ºi LÃƒ m:))]
+---[Notify me:))]
 local Notif = {}
 
 local CoreGUI = game:GetService("CoreGui")
@@ -5278,9 +5278,9 @@ end)
         pcall(function()
             while wait() do
     if game.Workspace._WorldOrigin.Locations:FindFirstChild('Mirage Island') then
-    Mirragecheck:Set('Ã°Å¸ÂÂÃ¯Â¸Â: Mystic Island Spawning')
+    Mirragecheck:Set('Mystic Island Spawning')
     else
-      Mirragecheck:Set('Ã¢ÂÅ’: Mystic Island Not Found ' )end
+      Mirragecheck:Set('Mystic Island Not Found ' )end
             end
         end)
 end)
@@ -5423,7 +5423,7 @@ spawn(function()
                 wait(0.5) 
                 local model = workspace.Boats.PirateBrigade
                 if model then
-                    local speed = 11
+                    local speed = 25
                     local forwardDirection = model.PrimaryPart.CFrame.lookVector
                     local targetPosition = model.PrimaryPart.Position + forwardDirection * 10
                     while (model.PrimaryPart.Position - targetPosition).Magnitude > 0.1 do
@@ -6741,9 +6741,9 @@ spawn(function()
     pcall(function()
         while wait() do
             if game.Workspace._WorldOrigin.Locations:FindFirstChild('Frozen Dimension') then
-                FrozenIsland:Set('Ã¢Å“â€¦: Frozen Dimension Spawning')
+                FrozenIsland:Set('Frozen Dimension Spawning')
             else
-                FrozenIsland:Set('Ã¢ÂÅ’: Frozen Dimension Not Found')
+                FrozenIsland:Set('Frozen Dimension Not Found')
             end
         end
     end)
@@ -7854,17 +7854,17 @@ end)
             while task.wait() do
                 pcall(function()
                     if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
-                        FM:Set("Ã°Å¸Å’â€˜: Full Moon 100%")
+                        FM:Set("Full Moon 100%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" then
-                        FM:Set("Ã°Å¸Å’â€™: Full Moon 75%")
+                        FM:Set("Full Moon 75%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
-                        FM:Set("Ã°Å¸Å’â€œ: Full Moon 50%")
+                        FM:Set("Full Moon 50%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
-                        FM:Set("Ã°Å¸Å’â€: Full Moon 25%")
+                        FM:Set("Full Moon 25%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
-                        FM:Set("Ã°Å¸Å’â€“: Full Moon 15%")
+                        FM:Set("Full Moon 15%")
                     else
-                        FM:Set("Ã°Å¸Å’â€¢: Wait For Moon")
+                        FM:Set("Wait For Moon")
                     end
                 end)
             end
@@ -11466,9 +11466,9 @@ end
         pcall(function()
             while wait() do
     if game.Workspace._WorldOrigin.Locations:FindFirstChild('Island 1') then
-    Island1:Set('Ã¢Å“â€¦: Island 1')
+    Island1:Set('Island 1')
     else
-      Island1:Set('Ã¢ÂÅ’: Island 1' )end
+      Island1:Set('Island 1' )end
             end
         end)
 end)
@@ -11477,9 +11477,9 @@ spawn(function()
         pcall(function()
             while wait() do
     if game.Workspace._WorldOrigin.Locations:FindFirstChild('Island 2') then
-    Island2:Set('Ã¢Å“â€¦: Island 2')
+    Island2:Set('Island 2')
     else
-      Island2:Set('Ã¢ÂÅ’: Island 2' )end
+      Island2:Set('Island 2' )end
             end
         end)
 end)
@@ -11488,9 +11488,9 @@ spawn(function()
         pcall(function()
             while wait() do
     if game.Workspace._WorldOrigin.Locations:FindFirstChild('Island 3') then
-    Island3:Set('Ã¢Å“â€¦: Island 3')
+    Island3:Set('Island 3')
     else
-      Island3:Set('Ã¢ÂÅ’: Island 3' )end
+      Island3:Set('Island 3' )end
             end
         end)
 end)
@@ -11499,9 +11499,9 @@ spawn(function()
         pcall(function()
             while wait() do
     if game.Workspace._WorldOrigin.Locations:FindFirstChild('Island 4') then
-    Island4:Set('Ã¢Å“â€¦: Island 4')
+    Island4:Set('Island 4')
     else
-      Island4:Set('Ã¢ÂÅ’: Island 4' )end
+      Island4:Set('Island 4' )end
             end
         end)
 end)
@@ -11510,9 +11510,9 @@ spawn(function()
         pcall(function()
             while wait() do
     if game.Workspace._WorldOrigin.Locations:FindFirstChild('Island 5') then
-    Island5:Set('Ã¢Å“â€¦: Island 5')
+    Island5:Set('Island 5')
     else
-      Island5:Set('Ã¢ÂÅ’: Island 5' )end
+      Island5:Set('Island 5' )end
             end
         end)
 end)
