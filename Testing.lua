@@ -5757,7 +5757,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=15860672267",
+							Icon = "http://www.roblox.com/asset/?id=16111659285",
 							Duration = 2.5
 						})
 					end
@@ -5769,7 +5769,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=15860672267",
+							Icon = "http://www.roblox.com/asset/?id=16111659285",
 							Duration = 2.5
 						})
 					end
@@ -5781,7 +5781,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=15860672267",
+							Icon = "http://www.roblox.com/asset/?id=16111659285",
 							Duration = 2.5
 						})
 					end
@@ -5793,7 +5793,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=15860672267",
+							Icon = "http://www.roblox.com/asset/?id=16111659285",
 							Duration = 2.5
 						})
 					end
@@ -5803,7 +5803,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=15860672267",
+									Icon = "http://www.roblox.com/asset/?id=16111659285",
 									Duration = 2.5
 								})
 							else
@@ -5814,7 +5814,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=15860672267",
+							Icon = "http://www.roblox.com/asset/?id=16111659285",
 							Duration = 2.5
 						})
 					end
@@ -7053,7 +7053,7 @@ wait(0.5)
 elseif state and (not findItem("Monster Magnet", 1) or not findItem("Terror Eyes", 2) and not findItem("Electric Wing", 8) and not findItem("Fool's Gold", 20) and not findItem("Shark Tooth", 10)) then
     _G.BjirAnchorCuy = false
     game.StarterGui:SetCore("SendNotification", {
-        Icon = "rbxassetid://15860672267",
+        Icon = "rbxassetid://16111659285",
         Title = "! WARNING !", 
         Text = "You need more materials \nto buy a Monster Magnet."
     })
@@ -11568,7 +11568,7 @@ spawn(function()
             for i,v in pairs(game.Workspace.Enemies:GetDescendants()) do
                 if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
                     pcall(function()
-                        repeat wait(.1)
+                        repeat wait(.0.1)
                             v.Humanoid.Health = 0
                             v.HumanoidRootPart.CanCollide = false
                             sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
@@ -12449,7 +12449,7 @@ S:AddToggle("Auto Buy Abilities", false, function(t)
     end
 end)
 
-S:AddSeperator("ÃƒÂ¢Ã¢â‚¬ÂºÃ‚Âµ Boats ÃƒÂ¢Ã¢â‚¬ÂºÃ‚Âµ")
+S:AddSeperator("Boats")
 
 BoatList = {
     "Pirate Sloop",
@@ -12648,7 +12648,7 @@ end)
 
     ------------Bone------------------
     
-    S:AddSeperator("ÃƒÂ°Ã…Â¸Ã‚Â¦Ã‚Â´ BonesÃƒÂ°Ã…Â¸Ã‚Â¦Ã‚Â´")
+    S:AddSeperator("Bones")
     
     S:AddButton("Buy Surprise [ $50 Bone ]",function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Bones","Buy",1,1)
@@ -12656,7 +12656,7 @@ end)
     
     ------------Stat------------------
     
-    S:AddSeperator("ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…  Fragments ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã… ")
+    S:AddSeperator("Fragments")
 
 S:AddButton("Reset Stats (Use 2.5K Fragments)", function()
     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","1")
@@ -12668,7 +12668,7 @@ S:AddButton("Random Race (Use 3K Fragments)", function()
 	game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","2")
 end)
     --------------Accessories-----------------
-    	S:AddSeperator("ÃƒÂ¢Ã…Â¡Ã¢â€žÂ¢ÃƒÂ¯Ã‚Â¸Ã‚Â Accessories ÃƒÂ¢Ã…Â¡Ã¢â€žÂ¢ÃƒÂ¯Ã‚Â¸Ã‚Â")
+    	S:AddSeperator("Accessories")
 	S:AddButton("Black Cape [ $50,000 Beli ]",function()
 		local args = {
 			[1] = "BuyItem",
@@ -13419,7 +13419,7 @@ Misc:AddToggle("Graphic",false,function(v)
 		end
 	end)
 
-    Misc:AddSeperator("ÃƒÂ¢Ã…Â¡Ã¢â€žÂ¢ÃƒÂ¯Ã‚Â¸Ã‚Â Misc ÃƒÂ¢Ã…Â¡Ã¢â€žÂ¢ÃƒÂ¯Ã‚Â¸Ã‚Â")
+    Misc:AddSeperator("Misc")
 
 Misc:AddToggle("Anti AFK", true, function()
 local vu = game:GetService("VirtualUser")
