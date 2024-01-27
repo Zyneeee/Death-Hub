@@ -1,4 +1,4 @@
----[Notify me:))]
+---[Notify Me :))]
 local Notif = {}
 
 local CoreGUI = game:GetService("CoreGui")
@@ -361,8 +361,7 @@ function Update:Window(text,logo,keybind)
     Ping.Position = UDim2.new(0.28, 0,0.074, 0)
     Ping.Size = UDim2.new(0, 225, 0, 25)
     Ping.Font = Enum.Font.GothamSemibold
-    Ping.Text = "             | Death Hub |                  "
-    
+    Ping.Text = "             | Death HubðŸ’€ |                  "
     Ping.TextColor3 = Color3.fromRGB(255,255,255)
     Ping.TextSize = 14.000
     Ping.TextXAlignment = Enum.TextXAlignment.Left
@@ -827,7 +826,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(16111659285)
         ImageButton.BorderSizePixel = 0
         ImageButton.Position = UDim2.new(0, 350, 0, 6)
         ImageButton.Size = UDim2.new(0, 20, 0, 20)
-        ImageButton.Image = "rbxassetid://15860672267"
+        ImageButton.Image = "rbxassetid://16111659285"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -1921,7 +1920,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(16111659285)
 end
 return uitab
 end
----- Death Hub Ui
+---- KÃ¡ÂºÂ¿t KhÃƒÂºc Ui
 
 function intiAppleHub() 
 _G.antiscan = true
@@ -5423,7 +5422,7 @@ spawn(function()
                 wait(0.5) 
                 local model = workspace.Boats.PirateBrigade
                 if model then
-                    local speed = 25
+                    local speed = 11
                     local forwardDirection = model.PrimaryPart.CFrame.lookVector
                     local targetPosition = model.PrimaryPart.Position + forwardDirection * 10
                     while (model.PrimaryPart.Position - targetPosition).Magnitude > 0.1 do
@@ -5757,7 +5756,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=16111659285",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5769,7 +5768,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=16111659285",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5781,7 +5780,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=16111659285",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5793,7 +5792,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=16111659285",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5803,7 +5802,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=16111659285",
+									Icon = "http://www.roblox.com/asset/?id=15860672267",
 									Duration = 2.5
 								})
 							else
@@ -5814,7 +5813,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=16111659285",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -6741,9 +6740,9 @@ spawn(function()
     pcall(function()
         while wait() do
             if game.Workspace._WorldOrigin.Locations:FindFirstChild('Frozen Dimension') then
-                FrozenIsland:Set('Frozen Dimension Spawning')
+                FrozenIsland:Set('Ã¢Å“â€¦: Frozen Dimension Spawning')
             else
-                FrozenIsland:Set('Frozen Dimension Not Found')
+                FrozenIsland:Set('Ã¢ÂÅ’: Frozen Dimension Not Found')
             end
         end
     end)
@@ -7053,7 +7052,7 @@ wait(0.5)
 elseif state and (not findItem("Monster Magnet", 1) or not findItem("Terror Eyes", 2) and not findItem("Electric Wing", 8) and not findItem("Fool's Gold", 20) and not findItem("Shark Tooth", 10)) then
     _G.BjirAnchorCuy = false
     game.StarterGui:SetCore("SendNotification", {
-        Icon = "rbxassetid://16111659285",
+        Icon = "rbxassetid://15860672267",
         Title = "! WARNING !", 
         Text = "You need more materials \nto buy a Monster Magnet."
     })
@@ -7854,17 +7853,17 @@ end)
             while task.wait() do
                 pcall(function()
                     if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
-                        FM:Set("Full Moon 100%")
+                        FM:Set("Ã°Å¸Å’â€˜: Full Moon 100%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" then
-                        FM:Set("Full Moon 75%")
+                        FM:Set("Ã°Å¸Å’â€™: Full Moon 75%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
-                        FM:Set("Full Moon 50%")
+                        FM:Set("Ã°Å¸Å’â€œ: Full Moon 50%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
-                        FM:Set("Full Moon 25%")
+                        FM:Set("Ã°Å¸Å’â€: Full Moon 25%")
                     elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
-                        FM:Set("Full Moon 15%")
+                        FM:Set("Ã°Å¸Å’â€“: Full Moon 15%")
                     else
-                        FM:Set("Wait For Moon")
+                        FM:Set("Ã°Å¸Å’â€¢: Wait For Moon")
                     end
                 end)
             end
@@ -12449,7 +12448,7 @@ S:AddToggle("Auto Buy Abilities", false, function(t)
     end
 end)
 
-S:AddSeperator("Boats")
+S:AddSeperator("ÃƒÂ¢Ã¢â‚¬ÂºÃ‚Âµ Boats ÃƒÂ¢Ã¢â‚¬ÂºÃ‚Âµ")
 
 BoatList = {
     "Pirate Sloop",
@@ -12656,7 +12655,7 @@ end)
     
     ------------Stat------------------
     
-    S:AddSeperator("Fragments")
+    S:AddSeperator("ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…  Fragments ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã… ")
 
 S:AddButton("Reset Stats (Use 2.5K Fragments)", function()
     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","1")
@@ -13935,7 +13934,7 @@ end)
 		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
 			v.Enabled = false
 		elseif v:IsA("MeshPart") then
-			v.Material = "Plastic"
+			v.Material = "Plastic"'
 			v.Reflectance = 0
 			v.TextureID = 10385902758728957
 		end
@@ -14118,4 +14117,49 @@ spawn(function()
             end
         end
     end)
-    end)
+end)
+    ------------Extra------------------
+s:AddSeperator("Extra")
+Extra:AddToggle("Auto Factory",_G.Factory.function(value)
+   _G.AutoFactor = value 
+end)
+
+    while _G.Factory do wait()
+				if game.Workspace.Enemies:FindFirstChild("Core") then
+					_G.Core = true
+					_G.AutoFarm = false
+					for i,v in pairs(game.Workspace.Enemies:GetChildren()) do
+						if _G.Core and v.Name == "Core" and v.Humanoid.Health > 0 then
+							repeat wait(.1)
+								repeat totarget(CFrame.new(448.46756, 199.356781, -441.389252)) wait() until _G.StopTween == true or not _G.Factory or (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-Vector3.new(448.46756, 199.356781, -441.389252)).Magnitude <= 10
+								EquipWeapon(_G.SelectWeapon)
+								if not game.Players.LocalPlayer.Character:FindFirstChild("HasBuso") then
+									local args = {
+										[1] = "Buso"
+									}
+									game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+								end
+								game:GetService'VirtualUser':CaptureController()
+								game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+							until not _G.Core or v.Humanoid.Health <= 0  or _G.Factory == false
+						end
+					end
+				elseif game.ReplicatedStorage:FindFirstChild("Core") then
+					_G.Core = true
+					_G.AutoFarm = false
+					repeat totarget(CFrame.new(448.46756, 199.356781, -441.389252)) wait() until _G.StopTween == true or not _G.Factory or (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-Vector3.new(448.46756, 199.356781, -441.389252)).Magnitude <= 10
+				elseif _G.Main then
+					_G.Core = false
+					_G.AutoFarm = true
+				end
+			end
+		end)
+	end
+
+	function EquipWeapon(ToolSe)
+		if game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe) then
+			local tool = game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe)
+			wait(.4)
+			game.Players.LocalPlayer.Character.Humanoid:EquipTool(tool)
+		end
+	end)
